@@ -1,0 +1,3 @@
+export {
+  resolveMathEquation,
+} from './mathController'

@@ -1,0 +1,25 @@
+{
+  "name": "nexton-backend",
+  "version": "1.0.0",
+  "description": "Nexton Back-End Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "dev": "npx ts-node-dev ./src/server.ts"
+  },
+  "author": "Guido Ponce",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/supertest": "^6.0.2",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}
